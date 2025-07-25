@@ -1,8 +1,6 @@
 <h1 align="center">FunPay Cardinal</h1>
 <h4 align="center">Простой и эффективный бот для автоматизации FunPay</h4>
 
-<h2 align="center">Перед началом настоятельно рекомендую залететь в наш <a href="https://t.me/funpay_cardinal">Telegram
-чат (клик)</a>. Тут и поможем чем сможем и посидеть можно.</h2>
 
 ## :clipboard: **Содержание**
 
@@ -16,12 +14,7 @@
     - [Для разработчиков](#computer-для-разработчиков)
 
 - [Плагины](#electric_plug-плагины)
-- [Установка](#arrow_down-установка)
-    - [Windows](#large_blue_diamond-windows)
-    - [Linux (Ubuntu)](#hotsprings-linux-ubuntu)
 - [Установка плагинов](#electric_plug-установка-плагинов)
-- [Мне нужна помощь](#question-мне-нужна-помощь)
-- [Star it](#star-star-it)
 
 ## :robot: **Возможности**
 
@@ -74,54 +67,11 @@
 - Возможность легкого создания плагинов.
 - Сконфигурированный логгер. Никаких принтов!
 - Собственный Python-пакет FunPayAPI, который никак не привязан к FunPay Cardinal.
-- Поддержка лично от меня :)
 
 ## :electric_plug: Плагины
 
 - [Канал с плагинами](https://t.me/fpc_plugins)
-
-## :arrow_down: Установка
-
-Арендовать виртуальный сервер можно на [FirstByte](https://firstbyte.ru/?from=162840). Выбирайте Ubuntu 20+ версии,
-остальные параметры не важны.
-
-### :large_blue_diamond: Windows
-
-1. Скачайте и установите [Python 3.11.0](https://www.python.org/ftp/python/3.11.0/python-3.11.0-amd64.exe).
-    1. При установке поставьте галочку у `Add python.exe to PATH` на первом экране установки.
-2. Скачайте [FunPay Cardinal](https://github.com/sidor0912/FunPayCardinal/archive/refs/heads/master.zip)
-3. Перенести папку `FunPayCardinal-main` в нужное Вам место.
-4. Перейдите в папку `FunPayCardinal-main`.
-5. Запустите файл `Setup.bat`. Дождитесь окончания загрузки пакетов.
-6. Закройте командную строку и запустите файл `Start.bat`.
-
-### :hotsprings: Linux (Ubuntu)
-
-1. Выполните команду:
-   `wget https://raw.githubusercontent.com/sidor0912/FunPayCardinal/main/install-fpc.sh -O install-fpc.sh && bash install-fpc.sh`
-2. Следуйте инструкциям установщика.
-   Данный скрипт автоматически установит всё необходимое и запустит бота как фоновый процесс.
-
-#### Решение проблемы с кодировкой latin-1
-
-Если вы сталкиваетесь с ошибками, связанными с кодировкой latin-1, выполните следующие шаги:
-
-1. Выполните команду:  
-   `sudo apt-get install language-pack-ru`
-2. Выполните команду:  
-   `sudo apt-get install language-pack-gnome-ru`
-3. Выполните команду:  
-   `sudo apt-get install language-pack-kde-ru`
-4. Выполните команду:  
-   `exit`
-5. Подключитесь к серверу.
-6. Выполните команду:  
-   `sudo update-locale LANG=ru_RU.utf8`
-7. Если возникает ошибка, вернитесь к шагу 4.
-8. Повторите попытку установки скрипта:  
-   `wget https://raw.githubusercontent.com/sidor0912/FunPayCardinal/main/install-fpc.sh -O install-fpc.sh && bash install-fpc.sh`
-9. Если снова возникает ошибка, вернитесь к шагу 4.
-
+- 
 ## :electric_plug: Установка плагинов
 
 Не устанавливайте плагины из непроверенных источников. Через систему плагинов злоумышленники могут получить полный
@@ -133,12 +83,3 @@
 4. Нажмите кнопку `➕ Добавить плагин`.
 5. Отправьте или перешлите боту файл плагина.
 
-## :question: Мне нужна помощь
-
-Если у вас остались какие-либо вопросы, мы с радостью ответим на них в
-нашем [Telegram чате](https://t.me/funpay_cardinal).
-
-## :star: Star it
-
-Если вам удобно пользоваться FunPay Cardinal, не забудьте поставить :star: звезду :star: данному проекту в правом
-верхнем углу GitHub-страницы (нужно быть авторизованным в свой аккаунт) :)
